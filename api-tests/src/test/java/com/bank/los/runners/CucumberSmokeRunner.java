@@ -6,11 +6,18 @@ import org.testng.annotations.DataProvider;
 
 @CucumberOptions(
     features = "src/test/resources/features",
-    glue = {"com.bank.los.steps", "com.bank.los.support"},
-    plugin = {"pretty","json:target/cucumber/smoke.json",
-              "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
-    tags = "@smoke")
-public class CucumberSmokeRunner extends AbstractTestNGCucumberTests {
-  @Override @DataProvider(parallel = true)
-  public Object[][] scenarios() { return super.scenarios(); }
+    glue = {"com.bank.los.steps"},
+    plugin = {
+        "pretty",
+        "json:target/cucumber/regression.json",
+        "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
+    },
+    tags = "@smoke"
+)
+public class CucumberRegressionRunner extends AbstractTestNGCucumberTests {
+    @Override
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 }

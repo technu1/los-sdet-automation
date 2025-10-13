@@ -1,9 +1,0 @@
-{
-    "request": { "method": "POST", "urlPattern": "/api/loans/.*/funding" },
-    "response": {
-      "status": 201,
-      "headers": { "Content-Type": "application/json" },
-      "jsonBody": { "fundingId": "F-123", "disbursementMethod": "ACH" }
-    }
-  }
-  

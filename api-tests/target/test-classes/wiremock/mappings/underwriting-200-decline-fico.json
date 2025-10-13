@@ -1,9 +1,0 @@
-{
-    "request": { "method": "GET", "url": "/api/loans/APP-LOW-FICO/underwriting" },
-    "response": {
-      "status": 200,
-      "headers": { "Content-Type": "application/json" },
-      "jsonBody": { "decision": "DECLINED" }
-    }
-  }
-  

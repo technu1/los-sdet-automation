@@ -15,10 +15,9 @@ import org.testng.annotations.DataProvider;
     tags = "@regression"
 )
 public class CucumberRegressionRunner extends AbstractTestNGCucumberTests {
-  // optional: enable parallel execution of scenarios in TestNG
-  @Override
-  @DataProvider(parallel = true)
-  public Object[][] scenarios() {
-    return super.scenarios();
-  }
+    @Override
+    @DataProvider(parallel = true)
+    public Object[][] scenarios() {
+        return super.scenarios();
+    }
 }

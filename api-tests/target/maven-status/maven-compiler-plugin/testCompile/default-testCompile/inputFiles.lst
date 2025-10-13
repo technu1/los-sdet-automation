@@ -1,6 +1,3 @@
 /Users/nbuddha/Documents/los-sdet-automation/api-tests/src/test/java/com/bank/los/runners/CucumberRegressionRunner.java
-/Users/nbuddha/Documents/los-sdet-automation/api-tests/src/test/java/com/bank/los/runners/CucumberSmokeRunner.java
-/Users/nbuddha/Documents/los-sdet-automation/api-tests/src/test/java/com/bank/steps/EnvSteps.java
-/Users/nbuddha/Documents/los-sdet-automation/api-tests/src/test/java/com/bank/steps/Hooks.java
-/Users/nbuddha/Documents/los-sdet-automation/api-tests/src/test/java/com/bank/steps/LoanSteps.java
-/Users/nbuddha/Documents/los-sdet-automation/api-tests/src/test/java/com/bank/steps/WireMockHooks.java
+/Users/nbuddha/Documents/los-sdet-automation/api-tests/src/test/java/com/bank/los/steps/EnvSteps.java
+/Users/nbuddha/Documents/los-sdet-automation/api-tests/src/test/java/com/bank/los/steps/LoanSteps.java

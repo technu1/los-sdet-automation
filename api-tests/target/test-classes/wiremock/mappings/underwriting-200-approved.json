@@ -1,9 +1,0 @@
-{
-    "request": { "method": "GET", "url": "/api/loans/APP-123/underwriting" },
-    "response": {
-      "status": 200,
-      "headers": { "Content-Type": "application/json" },
-      "jsonBody": { "decision": "APPROVED" }
-    }
-  }
-  
