@@ -1,3 +1,9 @@
+# LOS SDET Automation
+
+[![Allure Report](https://img.shields.io/badge/Allure-Report-3B5998?style=flat&logo=allure&logoColor=white)](https://technu1.github.io/los-sdet-automation/)
+
+Automated end-to-end testing framework for LOS (Loan Origination System)  
+**Tech stack:** Java • TestNG • Cucumber • RestAssured • Maven • Allure • GitHub Actions CI
 # 📦 Project: LOS SDET Automation (Java • TestNG • Maven • Cucumber • Rest-Assured)
 │ └─ test/
 │ ├─ java/
