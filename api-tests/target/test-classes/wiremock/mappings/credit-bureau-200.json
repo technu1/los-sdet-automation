@@ -1,0 +1,9 @@
+{
+    "request": { "method": "GET", "urlPattern": "/api/loans/.*/credit-bureau" },
+    "response": {
+      "status": 200,
+      "headers": { "Content-Type": "application/json" },
+      "jsonBody": { "bureau": "EQUIFAX", "score": 760 }
+    }
+  }
+  

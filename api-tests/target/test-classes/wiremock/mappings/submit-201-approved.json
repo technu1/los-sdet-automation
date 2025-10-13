@@ -1,0 +1,15 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/api/loans",
+      "bodyPatterns": [
+        { "matchesJsonPath": "$[?(@.fico >= 700 && @.annualIncome >= 100000)]" }
+      ]
+    },
+    "response": {
+      "status": 201,
+      "headers": { "Content-Type": "application/json" },
+      "jsonBody": { "applicationId": "APP-123", "status": "SUBMITTED" }
+    }
+  }
+  

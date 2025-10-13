@@ -1,0 +1,19 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/api/loans",
+      "bodyPatterns": [
+        { "matchesJsonPath": "$[?(@.fico < 600)]" }
+      ]
+    },
+    "response": {
+      "status": 201,
+      "headers": { "Content-Type": "application/json" },
+      "jsonBody": {
+        "applicationId": "APP-LOW-FICO",
+        "status": "SUBMITTED",
+        "declineReason": "credit too low"
+      }
+    }
+  }
+  

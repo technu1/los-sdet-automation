@@ -1,0 +1,9 @@
+{
+    "request": { "method": "GET", "url": "/api/loans/APP-LOW-INCOME/underwriting" },
+    "response": {
+      "status": 200,
+      "headers": { "Content-Type": "application/json" },
+      "jsonBody": { "decision": "DECLINED" }
+    }
+  }
+  

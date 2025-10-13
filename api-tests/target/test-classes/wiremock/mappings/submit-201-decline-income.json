@@ -1,0 +1,19 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/api/loans",
+      "bodyPatterns": [
+        { "matchesJsonPath": "$[?(@.annualIncome < 30000)]" }
+      ]
+    },
+    "response": {
+      "status": 201,
+      "headers": { "Content-Type": "application/json" },
+      "jsonBody": {
+        "applicationId": "APP-LOW-INCOME",
+        "status": "SUBMITTED",
+        "declineReason": "insufficient income"
+      }
+    }
+  }
+  
