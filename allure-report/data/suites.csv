@@ -1,0 +1,13 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"  As a credit union
+  I want to originate loans safely
+  So that we serve members with compliant decisions","71","Negative paths - income or credit too low","","2025-10-13","passed","2025-10-13","","Loan application lifecycle","Negative paths - income or credit too low",""
+"","7","verifyConfigLoading","Surefire suite","2025-10-11","passed","2025-10-11","com.bank.los.support.ConfigTest","Surefire test","com.bank.los.support.ConfigTest","verifyConfigLoading"
+"  As a credit union
+  I want to originate loans safely
+  So that we serve members with compliant decisions","83","Negative paths - income or credit too low","","2025-10-13","passed","2025-10-13","","Loan application lifecycle","Negative paths - income or credit too low",""
+"","5","setUpClass","Surefire suite","2025-10-13","broken","2025-10-13","com.bank.los.runners.CucumberRegressionRunner","Surefire test","com.bank.los.runners.CucumberRegressionRunner","setUpClass"
+"  As a credit union
+  I want to originate loans safely
+  So that we serve members with compliant decisions","95","Member applies for a loan and is approved","","2025-10-13","passed","2025-10-13","","Loan application lifecycle","Member applies for a loan and is approved",""
+"","3","setUpClass","Surefire suite","2025-10-13","broken","2025-10-13","com.bank.los.runners.CucumberSmokeRunner","Surefire test","com.bank.los.runners.CucumberSmokeRunner","setUpClass"

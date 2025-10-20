@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UI">
+    <listeners>
+        <listener class-name="com.bank.los.listeners.TestListener"/>
+    </listeners>
+    <test name="demo">
+        <classes>
+            <class name="com.bank.los.tests.FailTest"/>
+        </classes>
+    </test>
+</suite>

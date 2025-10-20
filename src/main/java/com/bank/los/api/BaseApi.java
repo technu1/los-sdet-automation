@@ -1,11 +1,10 @@
 package com.bank.los.api;
-
-
+import io.restassured.RestAssured;
+import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
 
-
 import com.bank.los.config.Config;
-import io.restassured.response.Response;
+
 
 
 public abstract class BaseApi {

@@ -1,0 +1,19 @@
+{
+    "request": {
+      "method": "POST",
+      "url": "/loan/apply",
+      "bodyPatterns": [
+        {
+          "matchesJsonPath": "$[?(@.loanAmount < 10000 || @.creditScore < 700)]"
+        }
+      ]
+    },
+    "response": {
+      "status": 400,
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{ \"status\": \"Declined\", \"message\": \"Applicant does not meet credit requirements.\" }"
+    }
+  }
+  

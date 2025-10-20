@@ -1,3 +1,6 @@
+com/bank/los/tests/LoanApiTest.class
+com/bank/los/api/HealthSanityTest.class
 com/bank/los/runners/CucumberRegressionRunner.class
 com/bank/los/steps/LoanSteps.class
 com/bank/los/steps/EnvSteps.class
+com/bank/los/runners/CucumberSmokeRunner.class
